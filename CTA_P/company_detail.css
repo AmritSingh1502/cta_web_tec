@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#company-details {
+    padding: 20px;
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+select{
+    width: 170px; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ul#interview-rounds {
+    list-style: none;
+    padding: 0;
+}
+ul#interview-rounds li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+ul#interview-rounds li strong {
+    font-weight: bold;
+}
+h3 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+button#share-experience {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button#share-experience:hover {
+    background-color: #555;
+}
+#offer-status-options {
+    display: flex; /* Display elements in a row */
+    align-items: center; /* Vertically center elements */
+}
+
+#offer-status-options label {
+    margin-right: 10px; /* Add space between labels and radio buttons */
+}
+
+#offer-status-options input[type="radio"] {
+    margin-right: 5px; /* Add space between radio buttons */
+}
+
+#experience-level-options {
+    display: flex; /* Display elements in a row */
+    align-items: center; /* Vertically center elements */
+}
+
+#experience-level-options label {
+    margin-right: 10px; /* Add space between labels and radio buttons */
+}
+
+#experience-level-options input[type="radio"] {
+    margin-right: 5px; /* Add space between radio buttons */
+}
